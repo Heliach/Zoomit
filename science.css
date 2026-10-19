@@ -87,3 +87,19 @@ ul li a:hover{
     max-height: 500px;
     border-radius: 8px;
 }
+
+.news-content h2 {
+    font-size: 21px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: gray;
+    font-family: "vazirmatnBo";
+}
+.news-content p {
+    font-size: 15px;
+    line-height: 2.3;
+    text-align: justify;
+    color: white;
+    font-family: "vazirmatnR";
+    margin-bottom: 18px;
+}
