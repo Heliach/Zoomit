@@ -75,6 +75,15 @@ ul li a:hover{
     font-size: 27pt;
     line-height: 1.9;
     margin-top: 50px;
-    margin-bottom: 35px;
+    margin-bottom: 100px;
     color: white;
+}
+.about-image {
+    margin: 25px 0;
+}
+.about-image img {
+    display: block;
+    width: 100%;
+    max-height: 500px;
+    border-radius: 8px;
 }
