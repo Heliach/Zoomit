@@ -148,3 +148,349 @@ ul li a:hover{
 .comments button:hover {
     background-color: #c0392b;
 }
+
+
+
+
+/* ==============================
+   Responsive - Tablet
+   ============================== */
+
+@media screen and (max-width: 1024px) {
+
+    /* هدر */
+    .header {
+        height: auto;
+        min-height: 60px;
+        padding: 12px 20px;
+        gap: 15px;
+        flex-wrap: wrap;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    /* لوگو */
+    .logo {
+        position: static;
+        width: 100px;
+        height: auto;
+        flex-shrink: 0;
+    }
+
+    /* منو */
+    .menu {
+        flex: 1;
+    }
+
+    .menu ul {
+        margin-right: 0;
+    }
+
+    .menu ul li {
+        padding-right: 12px;
+    }
+
+    .menu ul li a {
+        font-size: 14px;
+    }
+
+    /* جست‌وجو */
+    .search input {
+        width: 130px;
+        max-width: 100%;
+    }
+
+    /* محتوای اصلی */
+    .content {
+        width: 92%;
+        max-width: 1000px;
+        margin: 25px auto;
+    }
+
+    /* عنوان خبر */
+    .article h1 {
+        font-size: 25px;
+        line-height: 1.9;
+        margin-top: 35px;
+        margin-bottom: 40px;
+        overflow-wrap: break-word;
+    }
+
+    /* تصویر خبر */
+    .news-image img {
+        display: block;
+        width: 100%;
+        height: auto;
+        max-height: 450px;
+        object-fit: contain;
+    }
+
+    /* متن مقاله */
+    .news-content h2 {
+        font-size: 20px;
+        line-height: 1.9;
+    }
+
+    .news-content p {
+        font-size: 15px;
+        line-height: 2.2;
+    }
+
+    /* بخش نظرات */
+    .comments {
+        margin-top: 60px;
+        padding: 25px;
+    }
+}
+
+
+/* ==============================
+   Responsive - Mobile
+   ============================== */
+
+@media screen and (max-width: 768px) {
+
+    /* هدر سایت */
+    .header {
+        height: auto;
+        min-height: unset;
+        padding: 12px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        position: relative;
+        z-index: 1000;
+    }
+
+    /* لوگو */
+    .logo {
+        position: static;
+        display: block;
+        width: 105px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    /* منو */
+    .menu {
+        width: 100%;
+    }
+
+    .menu ul {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 8px 14px;
+        list-style: none;
+    }
+
+    .menu ul li {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu ul li a {
+        display: block;
+        padding: 5px 2px;
+        font-size: 13px;
+        line-height: 1.8;
+        white-space: nowrap;
+    }
+
+    /* کادر جست‌وجو */
+    .search {
+        width: 100%;
+    }
+
+    .search input {
+        display: block;
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /* محتوای صفحه */
+    .content {
+        width: 92%;
+        margin: 20px auto;
+    }
+
+    /* عنوان خبر */
+    .article h1 {
+        font-size: 22px;
+        line-height: 1.9;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        overflow-wrap: break-word;
+    }
+
+    /* تصویر خبر */
+    .news-image {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .news-image img {
+        display: block;
+        width: 100%;
+        height: auto;
+        max-height: none;
+        object-fit: contain;
+        border-radius: 8px;
+    }
+
+    /* عنوان متن مقاله */
+    .news-content h2 {
+        font-size: 19px;
+        line-height: 1.9;
+        margin-top: 22px;
+        margin-bottom: 12px;
+    }
+
+    /* پاراگراف‌های مقاله */
+    .news-content p {
+        font-size: 14px;
+        line-height: 2.2;
+        text-align: justify;
+        margin-bottom: 15px;
+        overflow-wrap: break-word;
+    }
+
+    /* بخش نظرات */
+    .comments {
+        margin-top: 40px;
+        padding: 20px 15px;
+        border-radius: 8px;
+    }
+
+    .comments h2 {
+        font-size: 21px;
+        line-height: 1.8;
+        margin-bottom: 15px;
+    }
+
+    /* فیلدهای فرم نظرات */
+    .form-group {margin-bottom: 18px;
+    }
+
+    .form-group label {
+        display: block;
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        padding: 11px;
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .form-group textarea {
+        resize: vertical;
+    }
+
+    /* دکمه ارسال */
+    .comments button {
+        width: 100%;
+        padding: 12px;
+        font-size: 14px;
+    }
+}
+
+
+/* ==============================
+   Responsive - Small Mobile
+   ============================== */
+
+@media screen and (max-width: 480px) {
+
+    /* هدر */
+    .header {
+        padding: 12px 10px;
+        gap: 12px;
+    }
+
+    /* لوگو */
+    .logo {
+        width: 95px;
+    }
+
+    /* منو */
+    .menu ul {
+        gap: 6px 10px;
+    }
+
+    .menu ul li a {
+        font-size: 12px;
+    }
+
+    /* محتوای اصلی */
+    .content {
+        width: 94%;
+        margin: 15px auto;
+    }
+
+    /* عنوان خبر */
+    .article h1 {
+        font-size: 19px;
+        line-height: 2;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* عنوان داخل مقاله */
+    .news-content h2 {
+        font-size: 17px;
+        line-height: 1.9;
+        margin-top: 20px;
+    }
+
+    /* متن مقاله */
+    .news-content p {
+        font-size: 13px;
+        line-height: 2.2;
+        margin-bottom: 13px;
+    }
+
+    /* بخش نظرات */
+    .comments {
+        margin-top: 30px;
+        padding: 16px 12px;
+    }
+
+    .comments h2 {
+        font-size: 19px;
+    }
+
+    /* فیلدهای فرم */
+    .form-group label {
+        font-size: 13px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    /* دکمه ارسال */
+    .comments button {
+        padding: 11px;
+        font-size: 13px;
+    }
+}
