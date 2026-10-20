@@ -79,3 +79,14 @@ content {
     color: white;
     text-align: center;
 }
+.news-image {
+    margin: 25px 0;
+}
+.news-image img {
+    display: block;
+    width: 70%;
+    max-height: 400px;
+    border-radius: 8px;
+    margin-top: 150px;
+    margin-right: 200px;
+}
