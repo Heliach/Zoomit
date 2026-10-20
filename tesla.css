@@ -65,3 +65,17 @@ ul li a:hover{
     border: 1px solid #ddd;
     border-radius: 5px;
 }
+content {
+    width: 90%;
+    max-width: 1000px;
+    margin: 35px auto;
+}
+.article h1 {
+    font-family: "vazirmatnBo";
+    font-size: 28pt;
+    line-height: 1.9;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    color: white;
+    text-align: center;
+}
