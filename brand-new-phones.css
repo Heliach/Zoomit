@@ -1,0 +1,67 @@
+@font-face {
+    font-family: vazirmatnBl;
+    src: url(./font/Vazirmatn_Black-s.p.2o5hrkiylztya.woff2);
+}
+@font-face {
+    font-family: vazirmatnBo;
+    src: url(./font/Vazirmatn_Bold-s.p.3_l2lbvbvgs-_.woff2);
+}
+@font-face {
+    font-family: vazirmatnR;
+    src: url(./font/Vazirmatn_Regular-s.p.0dcb8kz605k8s.woff2);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+     direction: rtl;
+}
+body{
+    width: 100%;
+    min-height: 100%;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.header{
+    height: 60px;
+    background-color:#222;
+    padding: 15px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border-bottom: 1px solid #777778;
+    position: sticky;
+    top: 0px;
+}
+.logo{
+    width: 130px;
+    height: 50px;
+    position: absolute;
+    right: 40px;
+} 
+ul{
+    margin-right: 420px;
+}
+ul li{
+    display: inline-block;
+    padding-right: 30px;
+}
+ul li a{
+    color: white;
+    font-family: "vazirmatnBo";
+    transition: all 0.2s;
+}
+ul li a:hover{
+    color: #e63946;
+    transition: all 0.2s;
+}
+.search input{
+    width: 150px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
