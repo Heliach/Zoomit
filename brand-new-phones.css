@@ -78,3 +78,14 @@ ul li a:hover{
     margin-bottom: 15px;
     color: white;
 }
+.news-image {
+    margin: 25px 0;
+}
+.news-image img {
+    display: block;
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 150px;
+}
