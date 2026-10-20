@@ -90,3 +90,22 @@ content {
     margin-top: 150px;
     margin-right: 200px;
 }
+.news-content {
+    width: 100%;
+    color: #fff;
+}
+.news-content h2 {
+    font-family: vazirmatnBo, sans-serif;
+    font-size: 22px;
+    line-height: 1.9;
+    color: #ccc;
+    margin-bottom: 25px;
+}
+.news-content p {
+    font-family: vazirmatnR, sans-serif;
+    font-size: 15px;
+    line-height: 2.3;
+    color: #fff;
+    margin-bottom: 22px;
+    text-align: justify;
+}
